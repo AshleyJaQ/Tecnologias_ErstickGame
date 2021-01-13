@@ -1,0 +1,52 @@
+﻿<Window x:Class="Erstick_Hangman.EntrarLobby"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Erstick_Hangman"
+        mc:Ignorable="d"
+        xmlns:p="clr-namespace:Erstick_Hangman.Properties"
+        Title="EntrarLobby" Height="450" AllowsTransparency="True"  WindowStyle="None" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,2,0">
+
+        <Border CornerRadius="10" >
+            <Border.Background>
+                <LinearGradientBrush>
+
+                    <GradientStop 
+                            Color="#F3904F" 
+                            Offset="0.0">
+                    </GradientStop >
+
+                    <GradientStop 
+                            Color="#3B4371" 
+                            Offset="1.0">
+                    </GradientStop >
+
+                </LinearGradientBrush>
+            </Border.Background>
+
+        </Border>
+        <Label Content="Erstick Games" HorizontalAlignment="Left" Margin="96,143,0,0" VerticalAlignment="Top" Foreground="#DDFFFFFF" FontStyle="Italic"  FontSize="35" Height="69" Width="230"/>
+        <Image  Source="Resources/Fichas/ficha1.ico" Margin="122,-14,110,304"/>
+        <Button x:Name="Boton_CrearLobby" Content="{x:Static p:Resources.crearPartida}" FontSize="14" Background="NavajoWhite" HorizontalAlignment="Left" Margin="19,212,0,0" VerticalAlignment="Top" Width="98" Height="53" Click="Boton_CrearLobby_Click"/>
+        <Label Content="{x:Static p:Resources.dificultad}" Width="80" Height="25" Margin="143,192,185,238" FontSize="13" Foreground="White"/>
+        <Label Content="{x:Static p:Resources.idiomaPalabra}" Height="25" Margin="208,193,72,232" FontSize="13" Foreground="White"/>
+        <StackPanel Height="75" Margin="143,197,10,178">
+            <RadioButton x:Name="radioButton_Facil" Height="20" Width="100" Content="{x:Static p:Resources.facil}" Margin="2,20,143,0" GroupName="Dificultad" IsChecked="True"/>
+            <RadioButton x:Name="radioButton_Dificil" Height="20" Width="100" Content="{x:Static p:Resources.dificil}" Margin="0,5,140,0" GroupName="Dificultad"/>
+            <RadioButton x:Name="radioButton_ES" Height="20" Width="100" Content="ES" Margin="0,-70,0,0" GroupName="Idioma" IsChecked="True"/>
+            <RadioButton x:Name="radioButton_EN" Height="20" Width="100" Content="EN" Margin="0,-20,0,0" GroupName="Idioma"/>
+
+
+
+        </StackPanel>
+
+        <Button x:Name="Boton_Entrar" Content="{x:Static p:Resources.buscarPartidas}" FontSize="16" Background="NavajoWhite" HorizontalAlignment="Left" Margin="64,277,0,0" VerticalAlignment="Top" Width="262" Height="35" Click="Boton_Entrar_Click"/>
+        <Button x:Name="Boton_Salir" Content="{x:Static p:Resources.salir}" FontSize="16" Background="NavajoWhite" HorizontalAlignment="Left" Margin="327,10,0,0" VerticalAlignment="Top" Width="61" Height="37" Click="Boton_Salir_Click"/>
+        <Button x:Name="Button_ConsultarPuntajes" Content="{x:Static p:Resources.consultarPuntajes}" FontSize="16" Background="NavajoWhite" HorizontalAlignment="Left" Margin="64,317,0,0" VerticalAlignment="Top" Width="262" Height="35" Click="Button_ConsultarPuntajes_Click"/>
+        <Button x:Name="Button_Reglas" Content="{x:Static p:Resources.reglas}" FontSize="16" Background="NavajoWhite" VerticalAlignment="Top" Height="37" Margin="10,10,281,0" Click="Button_Reglas_Click"/>
+
+    </Grid>
+
+</Window>

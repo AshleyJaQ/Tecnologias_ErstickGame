@@ -1,0 +1,157 @@
+File name	Line	Function	Duration[ms]	Explored nodes
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\App.g.cs	45	_Erstick_Hangman.App.InitializeComponent$$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\App.g.cs	59	_Erstick_Hangman.App.Main$$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\BuscarPartida.g.cs	72	_Erstick_Hangman.BuscarPartida.InitializeComponent$$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\BuscarPartida.xaml.cs	37	_Erstick_Hangman.BuscarPartida.Button_Entrar$object.System.Windows.RoutedEventArgs$	0	7
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\BuscarPartida.xaml.cs	64	_Erstick_Hangman.BuscarPartida.Button_Regresar$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	19	_Erstick_Hangman.CallbackJuego.RecibirMensajeLobby$string$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	29	_Erstick_Hangman.CallbackJuego.RecibirMensajeMiembroLobby$bool.string$	0	8
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	51	_Erstick_Hangman.CallbackJuego.EntrarJuego$$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	59	_Erstick_Hangman.CallbackJuego.RecibirMensaje$string$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	96	_Erstick_Hangman.CallbackJuego.ElegirFicha$string.Erstick_Hangman.ServicioErstick2.Ficha$$$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	110	_Erstick_Hangman.CallbackJuego.MostrarFichaElegida$Erstick_Hangman.ServicioErstick2.Ficha$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	119	_Erstick_Hangman.CallbackJuego.MostrarFichaElegida2$Erstick_Hangman.ServicioErstick2.Ficha$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	129	_Erstick_Hangman.CallbackJuego.Tirar$string$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	143	_Erstick_Hangman.CallbackJuego.MostrarTiro$Erstick_Hangman.ServicioErstick2.Ficha$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	158	_Erstick_Hangman.CallbackJuego.MostrarErrorPlayerAuxiliar$Erstick_Hangman.ServicioErstick2.Ficha.Erstick_Hangman.ServicioErstick2.Ficha$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	173	_Erstick_Hangman.CallbackJuego.MostrarGanador$Erstick_Hangman.ServicioErstick2.Ficha$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	187	_Erstick_Hangman.CallbackJuego.ActualizarErrores$Erstick_Hangman.ServicioErstick2.Ficha$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs	198	_Erstick_Hangman.CallbackJuego.ActualizarGanador$Erstick_Hangman.ServicioErstick2.Ficha$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\ConsultarPuntajes.g.cs	64	_Erstick_Hangman.ConsultarPuntajes.InitializeComponent$$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\ConsultarPuntajes.xaml.cs	36	_Erstick_Hangman.ConsultarPuntajes.Button_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\ConsultarPuntajes.xaml.cs	44	_Erstick_Hangman.ConsultarPuntajes.DataGrid_Puntajes_AutoGeneratingColumn$object.System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs$	0	95
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\EntrarLobby.g.cs	120	_Erstick_Hangman.EntrarLobby.InitializeComponent$$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\EntrarLobby.xaml.cs	45	_Erstick_Hangman.EntrarLobby.SoundTrackCargado$object.System.EventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\EntrarLobby.xaml.cs	50	_Erstick_Hangman.EntrarLobby.SoundTrackFinalizado$object.System.EventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\EntrarLobby.xaml.cs	55	_Erstick_Hangman.EntrarLobby.Boton_CrearLobby_Click$object.System.Windows.RoutedEventArgs$	0	16
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\EntrarLobby.xaml.cs	105	_Erstick_Hangman.EntrarLobby.Boton_Entrar_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\EntrarLobby.xaml.cs	157	_Erstick_Hangman.EntrarLobby.Button_ConsultarPuntajes_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\EntrarLobby.xaml.cs	165	_Erstick_Hangman.EntrarLobby.Button_Reglas_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\IngresarCodigo.g.cs	56	_Erstick_Hangman.IngresarCodigo.InitializeComponent$$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\IngresarCodigo.xaml.cs	39	_Erstick_Hangman.IngresarCodigo.Button_Salir$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\Juego.g.cs	139	_Erstick_Hangman.Juego.InitializeComponent$$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	72	_Erstick_Hangman.Juego.InicializarTablero$$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	83	_Erstick_Hangman.Juego.InitializePalabra$string$	9	303
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	119	_Erstick_Hangman.Juego.Button_Enviar$object.System.Windows.RoutedEventArgs$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	128	_Erstick_Hangman.Juego.CerrarVentana$object.System.ComponentModel.CancelEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	134	_Erstick_Hangman.Juego.Button_Salir$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	141	_Erstick_Hangman.Juego.RecibirListaJugadores$System.Collections.Generic.List$string$$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	147	_Erstick_Hangman.Juego.Entrar$$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	156	_Erstick_Hangman.Juego.ObtenerListaSeleccionados$$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	168	_Erstick_Hangman.Juego.DesactivarBotonesDisponibles$System.Collections.Generic.List$string$.Erstick_Hangman.Turno$	223	6185
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	287	_Erstick_Hangman.Juego.VerificarVictoria$$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	300	_Erstick_Hangman.Juego.AgregarLetra$string.string.Erstick_Hangman.ServicioErstick2.Ficha$	51	1187
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	356	_Erstick_Hangman.Juego.MostrarErrorJugador1$int.Erstick_Hangman.ServicioErstick2.Ficha$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	361	_Erstick_Hangman.Juego.MostrarErrorJugador2$string.int$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	382	_Erstick_Hangman.Juego.MostrarFichaEnTablero$$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	398	_Erstick_Hangman.Juego.MostrarFichaEnTablero2$$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs	418	_Erstick_Hangman.Juego.ValidarTexto$object.System.Windows.RoutedEventArgs$	0	7
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\Login.g.cs	107	_Erstick_Hangman.Login.InitializeComponent$$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	41	_Erstick_Hangman.Login.SoundTrackCargado$object.System.EventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	46	_Erstick_Hangman.Login.SoundTrackFinalizado$object.System.EventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	121	_Erstick_Hangman.Login.Button_Registrarse$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	137	_Erstick_Hangman.Login.CambiarIdiomaEspa.F1ol$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	151	_Erstick_Hangman.Login.CambiarIdiomaIngles$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	163	_Erstick_Hangman.Login.ValidarCamposVacios$$	0	6
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	187	_Erstick_Hangman.Login.TextBox_Usuario_LostFocus$object.System.Windows.RoutedEventArgs$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	200	_Erstick_Hangman.Login.PasswordBox_Contrase.F1a_LostFocus$object.System.Windows.RoutedEventArgs$	0	7
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	219	_Erstick_Hangman.Login.PasswordBox_KeyDown$object.System.Windows.Input.KeyEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	229	_Erstick_Hangman.Login.TextBox_Usuario_KeyDown$object.System.Windows.Input.KeyEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	239	_Erstick_Hangman.Login.Label_Contrase.F1a_MouseDown$object.System.Windows.Input.MouseButtonEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs	249	_Erstick_Hangman.Login.Label_Usuario_MouseDown$object.System.Windows.Input.MouseButtonEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\MainWindow.g.cs	88	_Erstick_Hangman.MainWindow.InitializeComponent$$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs	55	_Erstick_Hangman.MainWindow.CrearPartida$Erstick_Hangman.ServicioErstick2.Sala$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs	68	_Erstick_Hangman.MainWindow.EntrarPartida$Erstick_Hangman.ServicioErstick2.Sala$	0	4
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs	85	_Erstick_Hangman.MainWindow.ConsultarPartidasDisponibles$$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs	90	_Erstick_Hangman.MainWindow.Button_Enviar$object.System.Windows.RoutedEventArgs$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs	100	_Erstick_Hangman.MainWindow.CerrarVentana$object.System.ComponentModel.CancelEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs	105	_Erstick_Hangman.MainWindow.Button_Regresar$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs	113	_Erstick_Hangman.MainWindow.Button_Jugar$object.System.Windows.RoutedEventArgs$	0	6
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs	133	_Erstick_Hangman.MainWindow.EntrarJuego$$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs	143	_Erstick_Hangman.MainWindow.ValidarTexto$object.System.Windows.RoutedEventArgs$	0	7
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs	157	_Erstick_Hangman.MainWindow.button_Regresar_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	84	_Erstick_Hangman.ServicioErstick2.Cuenta.RaisePropertyChanged$string$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	161	_Erstick_Hangman.ServicioErstick2.Jugador.RaisePropertyChanged$string$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	254	_Erstick_Hangman.ServicioErstick2.FilaTablaPuntajes.RaisePropertyChanged$string$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	459	_Erstick_Hangman.ServicioErstick2.Sala.RaisePropertyChanged$string$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	600	_Erstick_Hangman.ServicioErstick2.Ficha.RaisePropertyChanged$string$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	688	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.IniciarSesion$Erstick_Hangman.ServicioErstick2.Cuenta$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	692	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.IniciarSesionAsync$Erstick_Hangman.ServicioErstick2.Cuenta$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	696	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.CerrarSesion$Erstick_Hangman.ServicioErstick2.Jugador$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	700	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.CerrarSesionAsync$Erstick_Hangman.ServicioErstick2.Jugador$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	704	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.RegistrarJugador$Erstick_Hangman.ServicioErstick2.Jugador.Erstick_Hangman.ServicioErstick2.Cuenta$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	708	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.RegistrarJugadorAsync$Erstick_Hangman.ServicioErstick2.Jugador.Erstick_Hangman.ServicioErstick2.Cuenta$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	712	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.ActivarCuentaJugador$Erstick_Hangman.ServicioErstick2.Cuenta.string$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	716	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.ActivarCuentaJugadorAsync$Erstick_Hangman.ServicioErstick2.Cuenta.string$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	720	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.VerificarCuenta$Erstick_Hangman.ServicioErstick2.Cuenta$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	724	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.VerificarCuentaAsync$Erstick_Hangman.ServicioErstick2.Cuenta$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	728	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.EnviarCorreo$Erstick_Hangman.ServicioErstick2.Cuenta$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	732	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.EnviarCorreoAsync$Erstick_Hangman.ServicioErstick2.Cuenta$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	736	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.ConsultarPuntajesPropios$Erstick_Hangman.ServicioErstick2.Jugador$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	740	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.ConsultarPuntajesPropiosAsync$Erstick_Hangman.ServicioErstick2.Jugador$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	744	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.ConsultarMejoresPuntajes$$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	748	_Erstick_Hangman.ServicioErstick2.ControlCuentaClient.ConsultarMejoresPuntajesAsync$$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	910	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.CrearSala$Erstick_Hangman.ServicioErstick2.Sala$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	914	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.CrearSalaAsync$Erstick_Hangman.ServicioErstick2.Sala$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	918	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.ConsultarSalasDisponibles$$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	922	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.ConsultarSalasDisponiblesAsync$$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	926	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.ConsultarJugadoresSala$int$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	930	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.ConsultarJugadoresSalaAsync$int$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	934	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.UnirseSala$int.Erstick_Hangman.ServicioErstick2.Jugador$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	938	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.UnirseSalaAsync$int.Erstick_Hangman.ServicioErstick2.Jugador$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	942	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.ValidarSala$int$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	946	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.ValidarSalaAsync$int$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	950	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.EnviarMensaje$int.string$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	954	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.EnviarMensajeAsync$int.string$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	958	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.SalirChat$int$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	962	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.SalirChatAsync$int$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	966	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.IniciarJuego$int$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	970	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.IniciarJuegoAsync$int$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	974	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.UnirseJuego$int.Erstick_Hangman.ServicioErstick2.Jugador$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	978	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.UnirseJuegoAsync$int.Erstick_Hangman.ServicioErstick2.Jugador$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	982	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.EnviarMensajeJuego$int.string$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	986	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.EnviarMensajeJuegoAsync$int.string$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	990	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.SalirJuego$int$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	994	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.SalirJuegoAsync$int$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	998	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.AsignarFicha$int.Erstick_Hangman.ServicioErstick2.Ficha$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	1002	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.AsignarFichaAsync$int.Erstick_Hangman.ServicioErstick2.Ficha$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	1006	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.RecibirTiro$int.int.string.Erstick_Hangman.ServicioErstick2.Ficha$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs	1010	_Erstick_Hangman.ServicioErstick2.ControlJuegoClient.RecibirTiroAsync$int.int.string.Erstick_Hangman.ServicioErstick2.Ficha$	0	2
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\RegistroUsuario.g.cs	104	_Erstick_Hangman.RegistroUsuario.InitializeComponent$$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\RegistroUsuario.xaml.cs	45	_Erstick_Hangman.RegistroUsuario.Button_Regresar$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\RegistroUsuario.xaml.cs	146	_Erstick_Hangman.RegistroUsuario.ValidarTexto$object.System.Windows.RoutedEventArgs$	0	7
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\Reglas.g.cs	63	_Erstick_Hangman.Reglas.InitializeComponent$$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Reglas.xaml.cs	29	_Erstick_Hangman.Reglas.button_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\Turno.g.cs	338	_Erstick_Hangman.Turno.InitializeComponent$$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	115	_Erstick_Hangman.Turno.Tirar$Erstick_Hangman.Juego$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	129	_Erstick_Hangman.Turno.Button_Tirar$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	171	_Erstick_Hangman.Turno.MostrarGanador$Erstick_Hangman.ServicioErstick2.Ficha$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	188	_Erstick_Hangman.Turno.Cerrando$object.System.ComponentModel.CancelEventArgs$	0	5
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	196	_Erstick_Hangman.Turno.Button_Salir$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	204	_Erstick_Hangman.Turno.buttonA_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	214	_Erstick_Hangman.Turno.buttonB_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	224	_Erstick_Hangman.Turno.buttonC_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	234	_Erstick_Hangman.Turno.buttonD_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	244	_Erstick_Hangman.Turno.buttonE_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	254	_Erstick_Hangman.Turno.buttonF_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	264	_Erstick_Hangman.Turno.buttonG_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	274	_Erstick_Hangman.Turno.buttonH_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	284	_Erstick_Hangman.Turno.buttonI_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	294	_Erstick_Hangman.Turno.buttonJ_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	304	_Erstick_Hangman.Turno.buttonK_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	314	_Erstick_Hangman.Turno.buttonL_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	324	_Erstick_Hangman.Turno.buttonM_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	334	_Erstick_Hangman.Turno.buttonN_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	344	_Erstick_Hangman.Turno.button.D1_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	354	_Erstick_Hangman.Turno.buttonO_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	364	_Erstick_Hangman.Turno.buttonP_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	374	_Erstick_Hangman.Turno.buttonQ_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	384	_Erstick_Hangman.Turno.buttonR_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	394	_Erstick_Hangman.Turno.buttonS_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	404	_Erstick_Hangman.Turno.buttonT_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	414	_Erstick_Hangman.Turno.buttonU_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	424	_Erstick_Hangman.Turno.buttonV_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	434	_Erstick_Hangman.Turno.buttonW_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	444	_Erstick_Hangman.Turno.buttonX_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	454	_Erstick_Hangman.Turno.buttonY_Click$object.System.Windows.RoutedEventArgs$	0	3
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs	464	_Erstick_Hangman.Turno.buttonZ_Click$object.System.Windows.RoutedEventArgs$	0	3

@@ -1,0 +1,15 @@
+C:\Users\Acous\source\repos\TemportizadorPruebas\bin\Debug\TemportizadorPruebas.exe.config
+C:\Users\Acous\source\repos\TemportizadorPruebas\bin\Debug\TemportizadorPruebas.exe
+C:\Users\Acous\source\repos\TemportizadorPruebas\bin\Debug\TemportizadorPruebas.pdb
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\TemportizadorPruebas.csprojAssemblyReference.cache
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\MainWindow.g.cs
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\App.g.cs
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\TemportizadorPruebas_MarkupCompile.cache
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\TemportizadorPruebas_MarkupCompile.lref
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\MainWindow.baml
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\TemportizadorPruebas.g.resources
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\TemportizadorPruebas.Properties.Resources.resources
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\TemportizadorPruebas.csproj.GenerateResource.cache
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\TemportizadorPruebas.csproj.CoreCompileInputs.cache
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\TemportizadorPruebas.exe
+C:\Users\Acous\source\repos\TemportizadorPruebas\obj\Debug\TemportizadorPruebas.pdb

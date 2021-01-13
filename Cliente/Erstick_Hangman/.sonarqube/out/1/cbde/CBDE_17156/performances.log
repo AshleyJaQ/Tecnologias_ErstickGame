@@ -1,0 +1,532 @@
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Connected Services\ServicioErstick2\Reference.cs
+RaisePropertyChanged 5
+RaisePropertyChanged 0
+RaisePropertyChanged 4
+RaisePropertyChanged 0
+RaisePropertyChanged 4
+RaisePropertyChanged 0
+RaisePropertyChanged 4
+RaisePropertyChanged 0
+RaisePropertyChanged 4
+RaisePropertyChanged 0
+IniciarSesion 3
+IniciarSesion 0
+IniciarSesionAsync 2
+IniciarSesionAsync 0
+CerrarSesion 2
+CerrarSesion 0
+CerrarSesionAsync 2
+CerrarSesionAsync 0
+RegistrarJugador 2
+RegistrarJugador 0
+RegistrarJugadorAsync 3
+RegistrarJugadorAsync 0
+ActivarCuentaJugador 2
+ActivarCuentaJugador 0
+ActivarCuentaJugadorAsync 2
+ActivarCuentaJugadorAsync 0
+VerificarCuenta 2
+VerificarCuenta 0
+VerificarCuentaAsync 2
+VerificarCuentaAsync 0
+EnviarCorreo 3
+EnviarCorreo 0
+EnviarCorreoAsync 16
+EnviarCorreoAsync 0
+ConsultarPuntajesPropios 3
+ConsultarPuntajesPropios 0
+ConsultarPuntajesPropiosAsync 3
+ConsultarPuntajesPropiosAsync 0
+ConsultarMejoresPuntajes 2
+ConsultarMejoresPuntajes 0
+ConsultarMejoresPuntajesAsync 2
+ConsultarMejoresPuntajesAsync 0
+IniciarSesion 4
+IniciarSesion 0
+IniciarSesionAsync 4
+IniciarSesionAsync 0
+CerrarSesion 3
+CerrarSesion 0
+CerrarSesionAsync 3
+CerrarSesionAsync 0
+RegistrarJugador 8
+RegistrarJugador 0
+RegistrarJugadorAsync 4
+RegistrarJugadorAsync 0
+ActivarCuentaJugador 4
+ActivarCuentaJugador 0
+ActivarCuentaJugadorAsync 4
+ActivarCuentaJugadorAsync 0
+VerificarCuenta 4
+VerificarCuenta 0
+VerificarCuentaAsync 4
+VerificarCuentaAsync 0
+EnviarCorreo 3
+EnviarCorreo 0
+EnviarCorreoAsync 3
+EnviarCorreoAsync 0
+ConsultarPuntajesPropios 4
+ConsultarPuntajesPropios 0
+ConsultarPuntajesPropiosAsync 3
+ConsultarPuntajesPropiosAsync 0
+ConsultarMejoresPuntajes 4
+ConsultarMejoresPuntajes 0
+ConsultarMejoresPuntajesAsync 3
+ConsultarMejoresPuntajesAsync 0
+CrearSala 3
+CrearSala 0
+CrearSalaAsync 3
+CrearSalaAsync 0
+ConsultarSalasDisponibles 3
+ConsultarSalasDisponibles 0
+ConsultarSalasDisponiblesAsync 3
+ConsultarSalasDisponiblesAsync 0
+ConsultarJugadoresSala 3
+ConsultarJugadoresSala 0
+ConsultarJugadoresSalaAsync 3
+ConsultarJugadoresSalaAsync 0
+UnirseSala 3
+UnirseSala 0
+UnirseSalaAsync 2
+UnirseSalaAsync 0
+ValidarSala 2
+ValidarSala 0
+ValidarSalaAsync 2
+ValidarSalaAsync 0
+EnviarMensaje 2
+EnviarMensaje 0
+EnviarMensajeAsync 3
+EnviarMensajeAsync 0
+SalirChat 2
+SalirChat 0
+SalirChatAsync 2
+SalirChatAsync 0
+IniciarJuego 2
+IniciarJuego 0
+IniciarJuegoAsync 3
+IniciarJuegoAsync 0
+UnirseJuego 3
+UnirseJuego 0
+UnirseJuegoAsync 3
+UnirseJuegoAsync 0
+EnviarMensajeJuego 2
+EnviarMensajeJuego 0
+EnviarMensajeJuegoAsync 2
+EnviarMensajeJuegoAsync 0
+SalirJuego 2
+SalirJuego 0
+SalirJuegoAsync 2
+SalirJuegoAsync 0
+AsignarFicha 3
+AsignarFicha 0
+AsignarFichaAsync 3
+AsignarFichaAsync 0
+RecibirTiro 3
+RecibirTiro 0
+RecibirTiroAsync 2
+RecibirTiroAsync 0
+RecibirMensajeLobby 3
+RecibirMensajeLobby 0
+RecibirMensajeMiembroLobby 3
+RecibirMensajeMiembroLobby 0
+EntrarJuego 3
+EntrarJuego 0
+RecibirMensaje 3
+RecibirMensaje 0
+RecibirMensajeMiembro 2
+RecibirMensajeMiembro 0
+ElegirFicha 3
+ElegirFicha 0
+MostrarFichaElegida 3
+MostrarFichaElegida 0
+Tirar 3
+Tirar 0
+MostrarTiro 2
+MostrarTiro 0
+MostrarGanador 2
+MostrarGanador 0
+MostrarFichaElegida2 2
+MostrarFichaElegida2 0
+MostrarErrorPlayerAuxiliar 2
+MostrarErrorPlayerAuxiliar 0
+ActualizarErrores 6
+ActualizarErrores 0
+ActualizarGanador 2
+ActualizarGanador 0
+CrearSala 3
+CrearSala 0
+CrearSalaAsync 3
+CrearSalaAsync 0
+ConsultarSalasDisponibles 3
+ConsultarSalasDisponibles 0
+ConsultarSalasDisponiblesAsync 7
+ConsultarSalasDisponiblesAsync 0
+ConsultarJugadoresSala 4
+ConsultarJugadoresSala 0
+ConsultarJugadoresSalaAsync 6
+ConsultarJugadoresSalaAsync 0
+UnirseSala 37
+UnirseSala 0
+UnirseSalaAsync 4
+UnirseSalaAsync 0
+ValidarSala 3
+ValidarSala 0
+ValidarSalaAsync 4
+ValidarSalaAsync 0
+EnviarMensaje 4
+EnviarMensaje 0
+EnviarMensajeAsync 4
+EnviarMensajeAsync 0
+SalirChat 4
+SalirChat 0
+SalirChatAsync 4
+SalirChatAsync 0
+IniciarJuego 40
+IniciarJuego 0
+IniciarJuegoAsync 4
+IniciarJuegoAsync 0
+UnirseJuego 4
+UnirseJuego 0
+UnirseJuegoAsync 4
+UnirseJuegoAsync 0
+EnviarMensajeJuego 3
+EnviarMensajeJuego 15
+EnviarMensajeJuegoAsync 4
+EnviarMensajeJuegoAsync 0
+SalirJuego 3
+SalirJuego 0
+SalirJuegoAsync 3
+SalirJuegoAsync 0
+AsignarFicha 10
+AsignarFicha 0
+AsignarFichaAsync 4
+AsignarFichaAsync 0
+RecibirTiro 4
+RecibirTiro 15
+RecibirTiroAsync 4
+RecibirTiroAsync 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\ConsultarPuntajes.xaml.cs
+Button_Click 4
+Button_Click 0
+DataGrid_Puntajes_AutoGeneratingColumn 6
+DataGrid_Puntajes_AutoGeneratingColumn 15
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\IngresarCodigo.xaml.cs
+Button_Salir 6
+Button_Salir 0
+Button_ValidarCuenta 3
+Button_ValidarCuenta 0
+Button_ReenviarCorreo 3
+Button_ReenviarCorreo 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.cs
+SoundTrackCargado 3
+SoundTrackCargado 0
+SoundTrackFinalizado 3
+SoundTrackFinalizado 0
+Button_IniciarSesion 3
+Button_IniciarSesion 0
+Button_Registrarse 4
+Button_Registrarse 15
+CambiarIdiomaEspañol 4
+CambiarIdiomaEspañol 0
+CambiarIdiomaIngles 14
+CambiarIdiomaIngles 0
+ValidarCamposVacios 5
+ValidarCamposVacios 0
+TextBox_Usuario_LostFocus 4
+TextBox_Usuario_LostFocus 0
+PasswordBox_Contraseña_LostFocus 5
+PasswordBox_Contraseña_LostFocus 0
+PasswordBox_KeyDown 3
+PasswordBox_KeyDown 0
+TextBox_Usuario_KeyDown 3
+TextBox_Usuario_KeyDown 0
+Label_Contraseña_MouseDown 4
+Label_Contraseña_MouseDown 0
+Label_Usuario_MouseDown 4
+Label_Usuario_MouseDown 0
+ValidarFormatoCorreo 9
+ValidarFormatoCorreo 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Properties\Resources.en-US.Designer.cs
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\RegistroUsuario.xaml.cs
+Button_Regresar 4
+Button_Regresar 0
+Button_Registrarse 3
+Button_Registrarse 0
+ValidarCampos 2
+ValidarCampos 0
+ValidarFormatoCorreo 3
+ValidarFormatoCorreo 0
+ValidarTexto 5
+ValidarTexto 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Reglas.xaml.cs
+button_Click 4
+button_Click 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs
+ElegirFicha 9
+ElegirFicha 0
+Rectangle_Clic 3
+Rectangle_Clic 0
+Button_Elegir 3
+Button_Elegir 0
+Tirar 5
+Tirar 15
+Button_Tirar 4
+Button_Tirar 0
+Iniciar 3
+Iniciar 0
+MostrarGanador 8
+MostrarGanador 15
+Cerrando 6
+Cerrando 0
+Button_Salir 4
+Button_Salir 0
+buttonA_Click 6
+buttonA_Click 0
+buttonB_Click 5
+buttonB_Click 0
+buttonC_Click 5
+buttonC_Click 0
+buttonD_Click 5
+buttonD_Click 0
+buttonE_Click 22
+buttonE_Click 0
+buttonF_Click 5
+buttonF_Click 0
+buttonG_Click 5
+buttonG_Click 0
+buttonH_Click 5
+buttonH_Click 0
+buttonI_Click 5
+buttonI_Click 0
+buttonJ_Click 6
+buttonJ_Click 0
+buttonK_Click 11
+buttonK_Click 0
+buttonL_Click 5
+buttonL_Click 0
+buttonM_Click 5
+buttonM_Click 0
+buttonN_Click 5
+buttonN_Click 0
+buttonÑ_Click 6
+buttonÑ_Click 0
+buttonO_Click 15
+buttonO_Click 0
+buttonP_Click 5
+buttonP_Click 0
+buttonQ_Click 5
+buttonQ_Click 0
+buttonR_Click 5
+buttonR_Click 15
+buttonS_Click 5
+buttonS_Click 0
+buttonT_Click 6
+buttonT_Click 0
+buttonU_Click 9
+buttonU_Click 0
+buttonV_Click 5
+buttonV_Click 0
+buttonW_Click 5
+buttonW_Click 0
+buttonX_Click 5
+buttonX_Click 0
+buttonY_Click 5
+buttonY_Click 0
+buttonZ_Click 6
+buttonZ_Click 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\App.xaml.cs
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\BuscarPartida.xaml.cs
+Button_Entrar 7
+Button_Entrar 0
+Button_Regresar 4
+Button_Regresar 0
+DataGrid_Partidas_AutoGeneratingColumn 3
+DataGrid_Partidas_AutoGeneratingColumn 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs
+RecibirMensajeLobby 4
+RecibirMensajeLobby 0
+RecibirMensajeMiembroLobby 8
+RecibirMensajeMiembroLobby 0
+EntrarJuego 6
+EntrarJuego 0
+RecibirMensaje 4
+RecibirMensaje 0
+RecibirMensajeMiembro 3
+RecibirMensajeMiembro 0
+ElegirFicha 5
+ElegirFicha 15
+MostrarFichaElegida 4
+MostrarFichaElegida 0
+MostrarFichaElegida2 4
+MostrarFichaElegida2 0
+Tirar 5
+Tirar 0
+MostrarTiro 10
+MostrarTiro 0
+MostrarErrorPlayerAuxiliar 6
+MostrarErrorPlayerAuxiliar 15
+MostrarGanador 4
+MostrarGanador 0
+ActualizarErrores 4
+ActualizarErrores 0
+ActualizarGanador 3
+ActualizarGanador 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\EntrarLobby.xaml.cs
+SoundTrackCargado 3
+SoundTrackCargado 0
+SoundTrackFinalizado 4
+SoundTrackFinalizado 0
+Boton_CrearLobby_Click 26
+Boton_CrearLobby_Click 15
+Boton_Entrar_Click 4
+Boton_Entrar_Click 0
+Boton_Salir_Click 3
+Boton_Salir_Click 0
+Button_ConsultarPuntajes_Click 4
+Button_ConsultarPuntajes_Click 0
+Button_Reglas_Click 4
+Button_Reglas_Click 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.cs
+InicializarTablero 18
+InicializarTablero 0
+InitializePalabra 6
+InitializePalabra 0
+InitializePalabraList 3
+InitializePalabraList 0
+Button_Enviar 4
+Button_Enviar 0
+CerrarVentana 4
+CerrarVentana 0
+Button_Salir 4
+Button_Salir 0
+RecibirListaJugadores 4
+RecibirListaJugadores 0
+Entrar 5
+Entrar 0
+ObtenerListaSeleccionados 4
+ObtenerListaSeleccionados 0
+DesactivarBotonesDisponibles 20
+DesactivarBotonesDisponibles 15
+VerificarVictoria 3
+VerificarVictoria 0
+AgregarLetra 13
+AgregarLetra 15
+MostrarErrorJugador1 3
+MostrarErrorJugador1 0
+MostrarErrorJugador2 6
+MostrarErrorJugador2 15
+MostrarFichaEnTablero 5
+MostrarFichaEnTablero 0
+MostrarFichaEnTablero2 6
+MostrarFichaEnTablero2 0
+ValidarTexto 10
+ValidarTexto 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs
+CrearPartida 4
+CrearPartida 0
+EntrarPartida 5
+EntrarPartida 0
+ConsultarPartidasDisponibles 4
+ConsultarPartidasDisponibles 0
+Button_Enviar 4
+Button_Enviar 0
+CerrarVentana 3
+CerrarVentana 0
+Button_Regresar 5
+Button_Regresar 0
+Button_Jugar 16
+Button_Jugar 0
+EntrarJuego 4
+EntrarJuego 0
+ValidarTexto 5
+ValidarTexto 0
+button_Regresar_Click 4
+button_Regresar_Click 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Properties\AssemblyInfo.cs
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Properties\Resources.Designer.cs
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Properties\Settings.Designer.cs
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\BuscarPartida.g.cs
+InitializeComponent 4
+InitializeComponent 0
+Connect 7
+Connect 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\ConsultarPuntajes.g.cs
+InitializeComponent 4
+InitializeComponent 0
+Connect 4
+Connect 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\EntrarLobby.g.cs
+InitializeComponent 4
+InitializeComponent 15
+Connect 4
+Connect 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\IngresarCodigo.g.cs
+InitializeComponent 4
+InitializeComponent 0
+Connect 14
+Connect 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\Juego.g.cs
+InitializeComponent 4
+InitializeComponent 0
+Connect 3
+Connect 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\Login.g.cs
+InitializeComponent 4
+InitializeComponent 0
+Connect 4
+Connect 15
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\MainWindow.g.cs
+InitializeComponent 5
+InitializeComponent 0
+Connect 14
+Connect 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\RegistroUsuario.g.cs
+InitializeComponent 4
+InitializeComponent 0
+Connect 4
+Connect 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\Reglas.g.cs
+InitializeComponent 4
+InitializeComponent 0
+Connect 4
+Connect 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\Turno.g.cs
+InitializeComponent 4
+InitializeComponent 0
+Connect 3
+Connect 0
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\App.g.cs
+InitializeComponent 4
+InitializeComponent 0
+Main 5
+Main 15
+
+C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\obj\Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs
+

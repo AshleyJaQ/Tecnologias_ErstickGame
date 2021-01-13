@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ErstickModelo.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ErstickModeloStoreContainer">
+    <EntitySet Name="JugadorSet" EntityType="ErstickModelo.Store.JugadorSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PuntuacionSet" EntityType="ErstickModelo.Store.PuntuacionSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CuentaSet" EntityType="ErstickModelo.Store.CuentaSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="JugadorCuenta" Association="ErstickModelo.Store.JugadorCuenta">
+      <End Role="Jugador" EntitySet="JugadorSet" />
+      <End Role="Cuenta" EntitySet="CuentaSet" />
+    </AssociationSet>
+    <AssociationSet Name="JugadorPuntuacion" Association="ErstickModelo.Store.JugadorPuntuacion">
+      <End Role="Jugador" EntitySet="JugadorSet" />
+      <End Role="Puntuacion" EntitySet="PuntuacionSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="JugadorSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="apodo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="apellidos" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Cuenta_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PuntuacionSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="turnos" Type="smallint" Nullable="false" />
+    <Property Name="fecha" Type="datetime" Nullable="false" />
+    <Property Name="Jugador_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CuentaSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="correo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="validada" Type="bit" Nullable="false" />
+    <Property Name="secionIniciada" Type="bit" Nullable="false" />
+    <Property Name="salt" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="JugadorCuenta">
+    <End Role="Jugador" Type="ErstickModelo.Store.JugadorSet" Multiplicity="*" />
+    <End Role="Cuenta" Type="ErstickModelo.Store.CuentaSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Jugador">
+        <PropertyRef Name="Cuenta_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="JugadorPuntuacion">
+    <End Role="Jugador" Type="ErstickModelo.Store.JugadorSet" Multiplicity="1" />
+    <End Role="Puntuacion" Type="ErstickModelo.Store.PuntuacionSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Jugador">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Puntuacion">
+        <PropertyRef Name="Jugador_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

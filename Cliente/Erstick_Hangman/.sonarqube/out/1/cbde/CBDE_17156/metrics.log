@@ -1,0 +1,9 @@
+exported 156 
+unsupported 25 
+TryStatement 3
+LogicalOrExpression 4
+LogicalAndExpression 3
+SimpleLambdaExpression 4
+ParenthesizedLambdaExpression 1
+SwitchStatement 10
+

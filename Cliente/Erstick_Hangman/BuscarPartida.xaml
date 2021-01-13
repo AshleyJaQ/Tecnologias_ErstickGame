@@ -1,0 +1,44 @@
+﻿<Window x:Class="Erstick_Hangman.BuscarPartida"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Erstick_Hangman"
+        xmlns:p="clr-namespace:Erstick_Hangman.Properties"
+        mc:Ignorable="d"
+         Title="BuscarPartida" Height="600" Width="1000" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="0.9" 
+        FontSize="18" ResizeMode="CanMinimize">
+
+    <Grid>
+        <Border CornerRadius="10" >
+            <Border.Background>
+                <LinearGradientBrush>
+
+                    <GradientStop 
+                            Color="#F3904F" 
+                            Offset="0.0">
+                    </GradientStop >
+
+                    <GradientStop 
+                            Color="#3B4371" 
+                            Offset="1.0">
+                    </GradientStop >
+
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <DataGrid x:Name="dataGrid_Partidas" HorizontalAlignment="Center" Height="350" Margin="0,80,0,0" VerticalAlignment="Top" Width="900" 
+                  AutoGeneratingColumn="DataGrid_Partidas_AutoGeneratingColumn" SelectionUnit="FullRow" CanUserAddRows="False" IsReadOnly="True"/>
+        <Button x:Name="button_Entrar" Content="{x:Static p:Resources.unirsePartida}"  Foreground="White" Background="Transparent" OpacityMask="Violet" BorderBrush="White"  HorizontalAlignment="Left" Height="35" Margin="810,481,0,0" VerticalAlignment="Top" Width="137" Click="Button_Entrar" FontSize="16">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="10" RenderingBias="Quality" ShadowDepth="8"/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="button_Cancelar" Content="{x:Static p:Resources.regresar}" Foreground="White" Background="Transparent" OpacityMask="Violet" BorderBrush="White"  HorizontalAlignment="Left" Height="35" Margin="47,481,0,0" VerticalAlignment="Top" Width="100" Click="Button_Regresar" FontSize="16">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="10" RenderingBias="Quality" ShadowDepth="8"/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+</Window>

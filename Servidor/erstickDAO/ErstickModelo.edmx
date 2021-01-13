@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ErstickModelo.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ErstickModeloStoreContainer">
+    <EntitySet Name="JugadorSet" EntityType="ErstickModelo.Store.JugadorSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PuntuacionSet" EntityType="ErstickModelo.Store.PuntuacionSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CuentaSet" EntityType="ErstickModelo.Store.CuentaSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="JugadorCuenta" Association="ErstickModelo.Store.JugadorCuenta">
+      <End Role="Jugador" EntitySet="JugadorSet" />
+      <End Role="Cuenta" EntitySet="CuentaSet" />
+    </AssociationSet>
+    <AssociationSet Name="JugadorPuntuacion" Association="ErstickModelo.Store.JugadorPuntuacion">
+      <End Role="Jugador" EntitySet="JugadorSet" />
+      <End Role="Puntuacion" EntitySet="PuntuacionSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="JugadorSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="apodo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="apellidos" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Cuenta_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PuntuacionSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="turnos" Type="smallint" Nullable="false" />
+    <Property Name="fecha" Type="datetime" Nullable="false" />
+    <Property Name="Jugador_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CuentaSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="correo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="validada" Type="bit" Nullable="false" />
+    <Property Name="secionIniciada" Type="bit" Nullable="false" />
+    <Property Name="salt" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="JugadorCuenta">
+    <End Role="Jugador" Type="ErstickModelo.Store.JugadorSet" Multiplicity="*" />
+    <End Role="Cuenta" Type="ErstickModelo.Store.CuentaSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Cuenta">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Jugador">
+        <PropertyRef Name="Cuenta_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="JugadorPuntuacion">
+    <End Role="Jugador" Type="ErstickModelo.Store.JugadorSet" Multiplicity="1" />
+    <End Role="Puntuacion" Type="ErstickModelo.Store.PuntuacionSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Jugador">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Puntuacion">
+        <PropertyRef Name="Jugador_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ErstickModelo" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="ErstickModeloContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="JugadorSet" EntityType="ErstickModelo.Jugador" />
+          <EntitySet Name="PuntuacionSet" EntityType="ErstickModelo.Puntuacion" />
+          <EntitySet Name="CuentaSet" EntityType="ErstickModelo.Cuenta" />
+          <AssociationSet Name="JugadorCuenta" Association="ErstickModelo.JugadorCuenta">
+            <End Role="Jugador" EntitySet="JugadorSet" />
+            <End Role="Cuenta" EntitySet="CuentaSet" />
+          </AssociationSet>
+          <AssociationSet Name="JugadorPuntuacion" Association="ErstickModelo.JugadorPuntuacion">
+            <End Role="Jugador" EntitySet="JugadorSet" />
+            <End Role="Puntuacion" EntitySet="PuntuacionSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Jugador">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="apodo" Type="String" Nullable="false" />
+          <Property Name="nombre" Type="String" Nullable="false" />
+          <Property Name="apellidos" Type="String" Nullable="false" />
+          <NavigationProperty Name="Cuenta" Relationship="ErstickModelo.JugadorCuenta" FromRole="Jugador" ToRole="Cuenta" />
+          <NavigationProperty Name="Puntuacion" Relationship="ErstickModelo.JugadorPuntuacion" FromRole="Jugador" ToRole="Puntuacion" />
+        </EntityType>
+        <EntityType Name="Puntuacion">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="turnos" Type="Int16" Nullable="false" />
+          <Property Name="fecha" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Jugador" Relationship="ErstickModelo.JugadorPuntuacion" FromRole="Puntuacion" ToRole="Jugador" />
+        </EntityType>
+        <EntityType Name="Cuenta">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="correo" Type="String" Nullable="false" />
+          <Property Name="password" Type="String" Nullable="false" />
+          <Property Name="validada" Type="Boolean" Nullable="false" />
+          <Property Name="secionIniciada" Type="Boolean" Nullable="false" />
+          <Property Name="salt" Type="String" Nullable="false" />
+          <NavigationProperty Name="Jugador" Relationship="ErstickModelo.JugadorCuenta" FromRole="Cuenta" ToRole="Jugador" />
+        </EntityType>
+        <Association Name="JugadorCuenta">
+          <End Type="ErstickModelo.Jugador" Role="Jugador" Multiplicity="1" />
+          <End Type="ErstickModelo.Cuenta" Role="Cuenta" Multiplicity="1" />
+        </Association>
+        <Association Name="JugadorPuntuacion">
+          <End Type="ErstickModelo.Jugador" Role="Jugador" Multiplicity="1" />
+          <End Type="ErstickModelo.Puntuacion" Role="Puntuacion" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ErstickModeloStoreContainer" CdmEntityContainer="ErstickModeloContainer">
+    <EntitySetMapping Name="JugadorSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ErstickModelo.Jugador)">
+        <MappingFragment StoreEntitySet="JugadorSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="apodo" ColumnName="apodo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PuntuacionSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ErstickModelo.Puntuacion)">
+        <MappingFragment StoreEntitySet="PuntuacionSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="turnos" ColumnName="turnos" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CuentaSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ErstickModelo.Cuenta)">
+        <MappingFragment StoreEntitySet="CuentaSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="validada" ColumnName="validada" />
+          <ScalarProperty Name="secionIniciada" ColumnName="secionIniciada" />
+          <ScalarProperty Name="salt" ColumnName="salt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="JugadorCuenta" TypeName="ErstickModelo.JugadorCuenta" StoreEntitySet="JugadorSet">
+      <EndProperty Name="Cuenta">
+        <ScalarProperty Name="Id" ColumnName="Cuenta_Id" />
+      </EndProperty>
+      <EndProperty Name="Jugador">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="JugadorPuntuacion" TypeName="ErstickModelo.JugadorPuntuacion" StoreEntitySet="PuntuacionSet">
+      <EndProperty Name="Jugador">
+        <ScalarProperty Name="Id" ColumnName="Jugador_Id" />
+      </EndProperty>
+      <EndProperty Name="Puntuacion">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

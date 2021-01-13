@@ -1,0 +1,110 @@
+﻿<Window x:Class="Erstick_Hangman.Juego"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Erstick_Hangman"
+        xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:p="clr-namespace:Erstick_Hangman.Properties"
+        mc:Ignorable="d"
+        Title="Erstick Games" Height="768" Width="1366" WindowStartupLocation="CenterScreen" WindowStyle="None" Opacity="0.9" 
+        FontSize="16" ResizeMode="CanMinimize"  WindowState="Maximized"
+        Closing="CerrarVentana" >
+
+    <Grid>
+        <Border CornerRadius="10" >
+            <Border.Background>
+                <LinearGradientBrush>
+
+                    <GradientStop 
+                            Color="#F3904F" 
+                            Offset="0.0">
+                    </GradientStop >
+
+                    <GradientStop 
+                            Color="#3B4371" 
+                            Offset="1.0">
+                    </GradientStop >
+
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <ListBox x:Name="listBox_Chat" HorizontalAlignment="Left" Height="400" Margin="10,0,0,80" VerticalAlignment="Bottom" Width="300" 
+            BorderBrush="NavajoWhite" BorderThickness="5" Background="WhiteSmoke" FontSize="16">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" TextWrapping="Wrap"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Padding" Value="5,5,5,0"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+        <TextBox x:Name="textBox_Mensaje" HorizontalAlignment="Left" Height="63" Margin="10,0,0,10" TextWrapping="Wrap" VerticalAlignment="Bottom" LostFocus="ValidarTexto"
+            Width="180" Foreground="White" BorderBrush="NavajoWhite" MaxLength="100"/>
+        <Button Content="{x:Static p:Resources.enviar}" HorizontalAlignment="Left" Height="35" Margin="210,0,0,22" VerticalAlignment="Bottom" Width="100" Click="Button_Enviar"/>
+        <Button x:Name="button_Regresar" Content="{x:Static p:Resources.salir}" HorizontalAlignment="Left" Margin="40,15,0,0" VerticalAlignment="Top" 
+            Width="140" Height="35" Background="NavajoWhite" BorderBrush="#FF020202" Foreground="Black" OpacityMask="Black" 
+            TextOptions.TextHintingMode="Fixed" SnapsToDevicePixels="True" Cursor="Arrow" FontStretch="SemiCondensed" Click="Button_Salir" FontSize="16">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="10" RenderingBias="Quality" ShadowDepth="8"/>
+            </Button.Effect>
+        </Button>
+        <ListBox x:Name="listBox_JugadoresConectados" HorizontalAlignment="Right" Height="150" Margin="0,69,1103,0" VerticalAlignment="Top" 
+            Width="217" Background="Transparent" Foreground="White" BorderThickness="1" BorderBrush="NavajoWhite"/>
+        <Grid x:Name="grid_Palabra" HorizontalAlignment="Right" Height="160" Margin="0,10,10,0" VerticalAlignment="Top" Width="1000">
+            <StackPanel>
+                <WrapPanel x:Name="Wrap">
+
+
+                </WrapPanel>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="grid_Tablero" HorizontalAlignment="Right" Height="550" Margin="0,10,10,0" VerticalAlignment="Bottom" Width="1000">
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="120*"/>
+                <RowDefinition Height="120*"/>
+                <RowDefinition Height="120*"/>
+                <RowDefinition Height="200*"/>
+                <RowDefinition Height="120*"/>
+                <RowDefinition Height="120*"/>
+                <RowDefinition Height="120*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="100*"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Row="3" Grid.Column="2">
+
+            </Image>
+            <Label Content="{x:Static p:Resources.usted}" Foreground="White" FontSize="18" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+            <Label Content="{x:Static p:Resources.adversario}" Foreground="White" FontSize="14" Grid.Row="2" Grid.Column="7" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+            <Label Content="{x:Static p:Resources.errores}" Foreground="White" FontSize="14" Grid.Row="0" Grid.Column="9" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+            <Label x:Name="labelNumErrorUser" Content="0" Foreground="White" FontSize="14" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+            <Label x:Name="labelNumErrorRival" Content="0" Foreground="White" FontSize="14" Grid.Row="1" Grid.Column="9" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+            <Label Content="{x:Static p:Resources.errores}" Foreground="White" FontSize="14" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+            <Label x:Name="label_ContadorErrores"  Content="{x:Static p:Resources.aviso}" Foreground="White" Grid.Row="2" Grid.Column="7" FontSize="14" Width="250" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="-310,-58,151,84" Height="46"/>
+
+
+            <Image Grid.Row="3" Grid.Column="7">
+
+            </Image>
+        </Grid>
+
+      
+        <Label x:Name="label_Aviso" HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top" Height="35" Width="300" Foreground="White"/>
+
+    </Grid>
+</Window>

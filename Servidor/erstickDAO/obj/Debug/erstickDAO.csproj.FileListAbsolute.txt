@@ -1,0 +1,12 @@
+C:\Users\Acous\source\repos\erstickDAO\bin\Debug\erstickDAO.dll.config
+C:\Users\Acous\source\repos\erstickDAO\bin\Debug\erstickDAO.dll
+C:\Users\Acous\source\repos\erstickDAO\bin\Debug\erstickDAO.pdb
+C:\Users\Acous\source\repos\erstickDAO\bin\Debug\EntityFramework.dll
+C:\Users\Acous\source\repos\erstickDAO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Acous\source\repos\erstickDAO\bin\Debug\EntityFramework.xml
+C:\Users\Acous\source\repos\erstickDAO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Acous\source\repos\erstickDAO\obj\Debug\erstickDAO.csprojAssemblyReference.cache
+C:\Users\Acous\source\repos\erstickDAO\obj\Debug\erstickDAO.csproj.CoreCompileInputs.cache
+C:\Users\Acous\source\repos\erstickDAO\obj\Debug\erstickDAO.csproj.CopyComplete
+C:\Users\Acous\source\repos\erstickDAO\obj\Debug\erstickDAO.dll
+C:\Users\Acous\source\repos\erstickDAO\obj\Debug\erstickDAO.pdb

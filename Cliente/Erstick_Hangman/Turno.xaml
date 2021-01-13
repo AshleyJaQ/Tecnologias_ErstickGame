@@ -1,0 +1,82 @@
+﻿<Window x:Class="Erstick_Hangman.Turno"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Erstick_Hangman"
+        xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        mc:Ignorable="d"
+        Title="Turno" Height="300" Width="400"  WindowStartupLocation="CenterScreen" AllowsTransparency="true" 
+        WindowStyle="None" FontSize="18" ResizeMode="CanMinimize" Closing="Cerrando">
+    <Grid>
+        <Border CornerRadius="10" >
+            <Border.Background>
+                <LinearGradientBrush>
+
+                    <GradientStop 
+                            Color="#F3904F" 
+                            Offset="0.0">
+                    </GradientStop >
+
+                    <GradientStop 
+                            Color="#3B4371" 
+                            Offset="1.0">
+                    </GradientStop >
+
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <Label x:Name="label_Instruccion" HorizontalAlignment="Left" Margin="85,8,0,0" VerticalAlignment="Top" 
+               Height="35" Width="220" Foreground="White"/>
+        <Grid x:Name="grid_ganador" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+        </Grid>
+        <ScrollViewer x:Name="scrollViewer_Fichas" HorizontalScrollBarVisibility="Visible" HorizontalAlignment="Center"  
+                      Width="350" VerticalAlignment="Center" VerticalScrollBarVisibility="Disabled" Visibility="Collapsed"
+                      Margin="0,10,0,0">
+            <Grid x:Name="grid_Fichas" HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+            </Grid>
+        </ScrollViewer>
+        <Button x:Name="button_Elegir" HorizontalAlignment="Right" Margin="0,0,20,15" 
+                VerticalAlignment="Bottom" Width="100" Click="Button_Elegir" Visibility="Collapsed" Foreground="Black"/>
+        <Button x:Name="button_Tirar" HorizontalAlignment="Center" Margin="143,0,157,15" 
+                VerticalAlignment="Bottom" Width="100" Click="Button_Tirar" Visibility="Collapsed" Foreground="Black" Height="25"/>
+        <Button x:Name="button_Salir" Content="Salir"  HorizontalAlignment="Left"  Margin="286,0,0,15" 
+                VerticalAlignment="Bottom" Width="89" Click="Button_Salir" Visibility="Collapsed" Background="White" Foreground="Black" Height="32" RenderTransformOrigin="0.145,0.425"/>
+        <Button x:Name="buttonA" Visibility="Collapsed" Content="A" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" Width="30" Click="buttonA_Click"/>
+        <Button x:Name="buttonB" Visibility="Collapsed" Content="B" HorizontalAlignment="Left" Margin="55,10,0,0" VerticalAlignment="Top" Width="30" Click="buttonB_Click"/>
+        <Button x:Name="buttonC" Visibility="Collapsed" Content="C" HorizontalAlignment="Left" Margin="95,10,0,0" VerticalAlignment="Top" Width="30" Click="buttonC_Click"/>
+        <Button x:Name="buttonD" Visibility="Collapsed" Content="D" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" Width="30" Click="buttonD_Click"/>
+        <Button x:Name="buttonE" Visibility="Collapsed" Content="E" HorizontalAlignment="Left" Margin="15,43,0,0" VerticalAlignment="Top" Width="30" Click="buttonE_Click"/>
+        <Button x:Name="buttonF" Visibility="Collapsed" Content="F" HorizontalAlignment="Left" Margin="55,43,0,0" VerticalAlignment="Top" Width="30" Click="buttonF_Click"/>
+        <Button x:Name="buttonG" Visibility="Collapsed" Content="G" HorizontalAlignment="Left" Margin="95,43,0,0" VerticalAlignment="Top" Width="30" Click="buttonG_Click"/>
+        <Button x:Name="buttonH" Visibility="Collapsed" Content="H" HorizontalAlignment="Left" Margin="135,43,0,0" VerticalAlignment="Top" Width="30" Click="buttonH_Click"/>
+        <Button x:Name="buttonI" Visibility="Collapsed" Content="I" HorizontalAlignment="Left" Margin="15,76,0,0" VerticalAlignment="Top" Width="30" Click="buttonI_Click"/>
+        <Button x:Name="buttonJ" Visibility="Collapsed" Content="J" HorizontalAlignment="Left" Margin="55,76,0,0" VerticalAlignment="Top" Width="30" Click="buttonJ_Click" RenderTransformOrigin="-0.467,-1.554"/>
+        <Button x:Name="buttonK" Visibility="Collapsed" Content="K" HorizontalAlignment="Left" Margin="95,76,0,0" VerticalAlignment="Top" Width="30" Click="buttonK_Click"/>
+        <Button x:Name="buttonL" Visibility="Collapsed" Content="L" HorizontalAlignment="Left" Margin="135,76,0,0" VerticalAlignment="Top" Width="30" Click="buttonL_Click"/>
+        <Button x:Name="buttonM" Visibility="Collapsed" Content="M" HorizontalAlignment="Left" Margin="15,109,0,0" VerticalAlignment="Top" Width="30" Click="buttonM_Click"/>
+        <Button x:Name="buttonN" Visibility="Collapsed" Content="N" HorizontalAlignment="Left" Margin="55,109,0,0" VerticalAlignment="Top" Width="30" Click="buttonN_Click"/>
+        <Button x:Name="buttonÑ" Visibility="Collapsed" Content="Ñ" HorizontalAlignment="Left" Margin="95,109,0,0" VerticalAlignment="Top" Width="30" Click="buttonÑ_Click"/>
+        <Button x:Name="buttonO" Visibility="Collapsed" Content="O" HorizontalAlignment="Left" Margin="135,109,0,0" VerticalAlignment="Top" Width="30" Click="buttonO_Click"/>
+        <Button x:Name="buttonP" Visibility="Collapsed" Content="P" HorizontalAlignment="Left" Margin="15,142,0,0" VerticalAlignment="Top" Width="30" Click="buttonP_Click"/>
+        <Button x:Name="buttonQ" Visibility="Collapsed" Content="Q" HorizontalAlignment="Left" Margin="55,142,0,0" VerticalAlignment="Top" Width="30" Click="buttonQ_Click"/>
+        <Button x:Name="buttonR" Visibility="Collapsed" Content="R" HorizontalAlignment="Left" Margin="95,142,0,0" VerticalAlignment="Top" Width="30" Click="buttonR_Click"/>
+        <Button x:Name="buttonS" Visibility="Collapsed" Content="S" HorizontalAlignment="Left" Margin="135,142,0,0" VerticalAlignment="Top" Width="30" Click="buttonS_Click"/>
+        <Button x:Name="buttonT" Visibility="Collapsed" Content="T" HorizontalAlignment="Left" Margin="15,175,0,0" VerticalAlignment="Top" Width="30" Click="buttonT_Click"/>
+        <Button x:Name="buttonU" Visibility="Collapsed" Content="U" HorizontalAlignment="Left" Margin="55,175,0,0" VerticalAlignment="Top" Width="30" Click="buttonU_Click"/>
+        <Button x:Name="buttonV" Visibility="Collapsed" Content="V" HorizontalAlignment="Left" Margin="95,175,0,0" VerticalAlignment="Top" Width="30" Click="buttonV_Click"/>
+        <Button x:Name="buttonW" Visibility="Collapsed" Content="W" HorizontalAlignment="Left" Margin="135,175,0,0" VerticalAlignment="Top" Width="30" Click="buttonW_Click"/>
+        <Button x:Name="buttonX" Visibility="Collapsed" Content="X" HorizontalAlignment="Left" Margin="40,208,0,0" VerticalAlignment="Top" Width="30" Click="buttonX_Click"/>
+        <Button x:Name="buttonY" Visibility="Collapsed" Content="Y" HorizontalAlignment="Left" Margin="75,208,0,0" VerticalAlignment="Top" Width="30" Click="buttonY_Click"/>
+        <Button x:Name="buttonZ" Visibility="Collapsed" Content="Z" HorizontalAlignment="Left" Margin="110,208,0,0" VerticalAlignment="Top" Width="30" Click="buttonZ_Click"/>
+        <Label x:Name="labelPalabraSelecion" Visibility="Collapsed" Content="Elija la &#xD;&#xA;letra que&#xD;&#xA; desea" Foreground="White" HorizontalAlignment="Left" Margin="237,60,0,0" VerticalAlignment="Top" FontSize="36" Width="153" Height="159"/>
+        <Label x:Name="label_Timer" Visibility="Collapsed" Content="0" FontSize="30" HorizontalAlignment="Left" Margin="340,224,0,0" VerticalAlignment="Top" Height="73" Width="50" Foreground="White"/>
+    </Grid>
+</Window>

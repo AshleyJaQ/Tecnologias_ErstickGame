@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>Erstick_Hangman</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>627a1746-69c0-47b5-9676-ab7f61ed012f</ProjectGuid>
+  <FullPath>C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Erstick_Hangman.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\.sonarqube\out\1\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\bin\Debug\Erstick_Hangman.exe.RoslynCA.json|C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\bin\Debug\Erstick_Hangman.exe.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\Acous\OneDrive\Imágenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\.sonarqube\out\1</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+</ProjectInfo>

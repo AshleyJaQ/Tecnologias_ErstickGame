@@ -1,0 +1,67 @@
+﻿<Window x:Class="Erstick_Hangman.RegistroUsuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Erstick_Hangman"
+         xmlns:p="clr-namespace:Erstick_Hangman.Properties"
+        mc:Ignorable="d"
+        Title="registroUsuario" Height="400" WindowStartupLocation="CenterScreen" Width="800"  WindowStyle="None" 
+        FontSize="16" ResizeMode="CanMinimize" AllowsTransparency="True">
+    <Grid>
+        <Border CornerRadius="10" >
+            <Border.Background>
+                <LinearGradientBrush>
+
+                    <GradientStop 
+                            Color="#F3904F" 
+                            Offset="0.0">
+                    </GradientStop >
+
+                    <GradientStop 
+                            Color="#3B4371" 
+                            Offset="1.0">
+                    </GradientStop >
+
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <Rectangle Fill="Black" HorizontalAlignment="Right" Height="162" Margin="0,218,191,0" Stroke="#FFFFE4E4" VerticalAlignment="Top" Width="444" Opacity=".10" OpacityMask="White" IsEnabled="False" RenderTransformOrigin="1,0"/>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="179" Margin="165,34,0,0" Stroke="#FFFFE4E4" VerticalAlignment="Top" Width="444" Opacity=".10" OpacityMask="White" IsEnabled="False"/>
+        <TextBox x:Name="textBox_NombreUsuario" HorizontalAlignment="Left" Margin="358,62,0,0" TextWrapping="NoWrap" MaxLength="100" Text="" VerticalAlignment="Top" LostFocus="ValidarTexto"
+                 Width="229" Foreground="White" Background="{x:Null}" BorderBrush="#89F5F5F5"/>
+        <TextBox x:Name="textBox_Apellidos" HorizontalAlignment="Left" Margin="358,108,0,0" TextWrapping="NoWrap" MaxLength="100" Text="" VerticalAlignment="Top" LostFocus="ValidarTexto"
+                 Width="229" Foreground="White" Background="{x:Null}" BorderBrush="#89F5F5F5"/>
+        <TextBox x:Name="textBox_Apodo" HorizontalAlignment="Left" Margin="358,157,0,0" TextWrapping="NoWrap" MaxLength="100" Text="" VerticalAlignment="Top" LostFocus="ValidarTexto"
+                 Width="229" Foreground="White" Background="{x:Null}" BorderBrush="#89F5F5F5"/>
+        <TextBox x:Name="textBox_CorreoElectronico" HorizontalAlignment="Left" Margin="382,239,0,0" TextWrapping="NoWrap" MaxLength="100" Text="" VerticalAlignment="Top" 
+                 Width="205" Foreground="White" Background="{x:Null}" BorderBrush="#89F5F5F5" Height="21"/>
+        <PasswordBox x:Name="passwordBox_Contraseña" HorizontalAlignment="Left" Margin="382,285,0,0" VerticalAlignment="Top" 
+                     Width="205" Foreground="White" Background="{x:Null}" BorderBrush="#89F5F5F5" MaxLength="50" Height="20"/>
+        <PasswordBox x:Name="passwordBox_ConfirmarContraseña" HorizontalAlignment="Left" Margin="382,331,0,0" VerticalAlignment="Top" 
+                 Width="205" Foreground="White" Background="{x:Null}" BorderBrush="#89F5F5F5" MaxLength="50" Height="20"/>
+        <Button x:Name="button_RegistroVentanaRegistrarse" Content="{x:Static p:Resources.registrar}" HorizontalAlignment="Left" Margin="637,324,0,0" 
+                VerticalAlignment="Top" Width="153" Background="Transparent" BorderBrush="White" Foreground="White" 
+                TextOptions.TextHintingMode="Fixed" SnapsToDevicePixels="True" Cursor="Arrow" FontStretch="SemiCondensed" Click="Button_Registrarse" FontSize="16" Height="41">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="10" RenderingBias="Quality" ShadowDepth="8"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="{x:Static p:Resources.regresar}" Margin="14,0,0,360" VerticalAlignment="Bottom" Click="Button_Regresar" Background="Transparent" 
+                HorizontalAlignment="Left" Width="96" Foreground="White" BorderBrush="White" FontSize="16">
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="10" RenderingBias="Quality" ShadowDepth="8"/>
+            </Button.Effect>
+        </Button>
+        <Label Content="{x:Static p:Resources.personales}" HorizontalAlignment="Left" Margin="0,130,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#DDFFFFFF" FontSize="20"/>
+        <Label Content="Erstick Games" HorizontalAlignment="Left" Margin="658,7,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#DDFFFFFF" FontSize="20"/>
+        <Label Content="{x:Static p:Resources.cuenta}" HorizontalAlignment="Left" Margin="10,297,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#DDFFFFFF" FontSize="20" RenderTransformOrigin="0.429,0.423"/>
+        <Label Content="{x:Static p:Resources.apellidos}" HorizontalAlignment="Left" Margin="196,108,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#DDFFFFFF" Width="99"/>
+        <Label Content="{x:Static p:Resources.apodo}" HorizontalAlignment="Left" Margin="196,157,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#DDFFFFFF" Width="76"/>
+        <Label Content="{x:Static p:Resources.correo}" HorizontalAlignment="Left" Margin="177,238,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#DDFFFFFF" Height="28" Width="163"/>
+        <Label Content="{x:Static p:Resources.contrasenia}" HorizontalAlignment="Left" Margin="177,284,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#DDFFFFFF" Height="28" Width="109"/>
+        <Label Content="{x:Static p:Resources.nombre}" HorizontalAlignment="Left" Margin="196,62,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#DDFFFFFF" Width="90"/>
+        <Label Content="{x:Static p:Resources.confirmarContraseña}" HorizontalAlignment="Left" Margin="177,330,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#DDFFFFFF" Height="27" Width="196"/>
+    </Grid>
+</Window>
+

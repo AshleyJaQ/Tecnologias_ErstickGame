@@ -1,0 +1,29 @@
+ิ
+eC:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\ConsultarPuntajes.xaml.cs 8jrA	
+ !"#%&'()*+-./012345679:;<=?@ABCEFGHIKLOPx!"')*/02467:<=@BCFHI
+bC:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\IngresarCodigo.xaml.cs% 8j#$%&'rg	
+ !"()*+,-.0123456789:;<=>?@ABCDEFGHIJKLMNOPQRTUVWXYZ[\]^_`abcdefghijklnopqrstuvxyx
+ !*,-23567<=?@BCEGIKPV[\^`bdfkห
+YC:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Login.xaml.csL 8ju 456789:;<uvwxy…“”•–— กขฃทธนบปฤลฦวศืุูฺÛแโใไๅ๋์ํ๎๏๕๖๗๘๙ÿ€r…	
+!"#$%&'(*+,-/012=>?@ABCDEFGHIJKLNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrsz{|€‘คฅจฉชซฌญฎฏฐฑฒณดตผฝพฟภมยษสหฬอฮฯะัาำิีÜÝÞ฿ๆ็่้๐๑๒๓๚๛üý…‘xd#$%&',1?@ABDKLQRTVXY[]^`cdejklq|€จชซฌฎฐฑฒดพภหอฮะาำÞ่๒ü่
+cC:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\RegistroUsuario.xaml.cs3 8j!)*+,-6789:;<=klmnop…r	
+ !"#$%&(./01234>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghiqrtuvwxyz{|}~€‘“”•–— กx7023@ACFGKLNPQVWY[\]_abcegtuwxy{}~–‘
+ZC:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Reglas.xaml.cs 8jr	
+ !"# น
+
+YC:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Turno.xaml.cs” '80j !"()*+qrsจฉชซrü	
+#$%&',-./0123456789:;<=>?@ABCDEFGHIJKLMNPQRSTUVWXY[\]^_`abcdefghijlmnoptvwxyz{|}€…‘’“”–—กขฆฌญฎฏฐฑฒณดตถทธนบปฝพฟภมยรลฦวศษสหอฮฯะัาำิีึืุูฺÛÜÝÞ฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛üýþÿ€…‘’“”•–— กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืุูฺÛÜÝÞ฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛üýþÿ€…‘’“”•–— กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืุูฺÛÜxฒ%&.35689:;<=>?@ABCDEFGHKLMSTVX]^`acdfghmnowxy{|}’“–—ขฎฐฑณดตถทธนบฟมวศษสฯะาำิีูฺÜÝÞ฿ใไๆ็่้ํ๎๐๑๒๓๗๘๚๛üý…‘•– ขฃคฅฉชฌญฎฏณดถทธนฝพภมยรวศสหฬอัาิีึืÛÜÞ฿เแๅๆ่้๊๋๏๐๒๓๔๕๙๚üýþÿ‘’“—กขคฅฆงซฌฎฏฐฑตถธนบปฟภยรฤลษสฬอฮฯำิึืุูo
+WC:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\App.xaml.csjr	
+๖
+aC:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\BuscarPartida.xaml.cs( 8jrX	
+ !"#$&'()*+,-./012379:;<=>?ABDEFGIJKLMNOPQRSTUVWXYZ[\]^_`abcdeghix# !"#(+,./179:;=>EFKLNPRSTVXYZ\_`bdะ
+\C:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\CallbackJuego.cs< 8j[/012389:;ABCDE[\]^_`klmntuvw~€ชซฌญถทธนบปยรฤลฦrต	
+ !"#$%&'()*+,-.4567<=>?@FGHIJKLMNOPQRSTUVWXYabcdefghijopqrsxyz{|…‘’”•–— กขฃคฅฆงฎฏฐฑฒณดตผฝพฟภมวศษสหฬฮะxP "#$()*,-6>?HJKMOPTUWXdeghqrz{…’”•–—กขฃคฆฑฒณดพฟภษสห
+_C:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\EntrarLobby.xaml.cs> 8jrฤ	
+ !"#$&'()*+./01345689:;<=>@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`cdefghjklmnopqstuvwyz{}~€…‘’“”•–— กขฃคฆงจฉชฌฎฏxH&'()*05:=ACDFGHLMNSTVWX\]^defglnopu{€…’“” ขฃจชจ
+YC:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Juego.xaml.csช  8IjK()*+,-.FGHPQRSfghiคฅฆงจฆงจฉชซฌüýþ กขrี	
+ !"#$%&/0123456789:;=?@ABCDIJLMNTUVWXYZ[\]^_`abdjklmnopqrstvxyz{|}~…‘’”•–— กขฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรฤลฦวศษสหฬอฮฯะัาำิีึืุูฺÛÜÝÞ฿เแโใไๅๆ็่้๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๚๛üýþÿ€…‘’“”•–— กขฃคญฎฏฐฑฒณตถทธนบปผฝพฟภมยฤลฦวศษสฬอฮะัาำิีึืุูฺÛÜÞแใๅๆ็่๊๋์ํ๎๏๐๑๒๓๔๕๖๗๘๙๛ÿ€…‘’“”•–—ฃคฅฆงจฉชซฌญฎฏฐฑxG123456789:;LMVX[\]^_`amoqsz|}‘– กซฌฎฐฒดถธบผพภยฤฦศสฬฮะาิึุฺÜÞเโไๆ่๊์๎๐๒๔๖๘๚üþ€’”–ฃฏฑฒณตทบปผฝพฟภมยลวษฬฮะัีึืุูฺÛแ็์ํ๎๒๓๔๕๖๗๘…’“”•–—ฆจชฌญ๏
+^C:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\MainWindow.xaml.cs1 8j!!"#$%34567?@ABCDQRSTU€…rก	
+&'()*+,-./01289:;<=>EFGHIJKLMNOPVWXY[\^_`abcefghjklmnoprstuvwxyz{|}‘’“”•–— กขฃคฅฆงx;()*+,01:;<=GHJKLMOX^`aglnotuvx|“•— กฃค
+fC:\Users\Acous\OneDrive\Imรกgenes\Proyecto_Ahorcado\Cliente\Erstick_Hangman\Properties\AssemblyInfo.csj	#$%&'(,./01345r
+"#&)67

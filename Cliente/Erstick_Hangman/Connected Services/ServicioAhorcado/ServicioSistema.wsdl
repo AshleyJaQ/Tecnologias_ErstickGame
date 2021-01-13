@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicioSistema" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IControlCuenta_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="NetTcpBinding_IControlJuego_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8080/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8080/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8080/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MessageServiceA" />
+      <xsd:import schemaLocation="http://localhost:8080/?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IControlCuenta_IniciarSesion_InputMessage">
+    <wsdl:part name="parameters" element="tns:IniciarSesion" />
+  </wsdl:message>
+  <wsdl:message name="IControlCuenta_IniciarSesion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IniciarSesionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_CrearSala_InputMessage">
+    <wsdl:part name="parameters" element="tns:CrearSala" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_CrearSala_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CrearSalaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_ConsultarSalasDisponibles_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarSalasDisponibles" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_ConsultarSalasDisponibles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarSalasDisponiblesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_ConsultarJugadoresSala_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarJugadoresSala" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_ConsultarJugadoresSala_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarJugadoresSalaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_UnirseSala_InputMessage">
+    <wsdl:part name="parameters" element="tns:UnirseSala" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_ValidarSala_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarSala" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_ValidarSala_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarSalaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_EnviarMensaje_InputMessage">
+    <wsdl:part name="parameters" element="tns:EnviarMensaje" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_SalirChat_InputMessage">
+    <wsdl:part name="parameters" element="tns:SalirChat" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_RecibirMensajeLobby_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:RecibirMensajeLobby" />
+  </wsdl:message>
+  <wsdl:message name="IControlJuego_RecibirMensajeMiembroLobby_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:RecibirMensajeMiembroLobby" />
+  </wsdl:message>
+  <wsdl:portType name="IControlCuenta">
+    <wsdl:operation name="IniciarSesion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlCuenta/IniciarSesion" message="tns:IControlCuenta_IniciarSesion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlCuenta/IniciarSesionResponse" message="tns:IControlCuenta_IniciarSesion_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IControlJuego">
+    <wsdl:operation name="CrearSala">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlJuego/CrearSala" message="tns:IControlJuego_CrearSala_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlJuego/CrearSalaResponse" message="tns:IControlJuego_CrearSala_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarSalasDisponibles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlJuego/ConsultarSalasDisponibles" message="tns:IControlJuego_ConsultarSalasDisponibles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlJuego/ConsultarSalasDisponiblesResponse" message="tns:IControlJuego_ConsultarSalasDisponibles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarJugadoresSala">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlJuego/ConsultarJugadoresSala" message="tns:IControlJuego_ConsultarJugadoresSala_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlJuego/ConsultarJugadoresSalaResponse" message="tns:IControlJuego_ConsultarJugadoresSala_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UnirseSala">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlJuego/UnirseSala" message="tns:IControlJuego_UnirseSala_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarSala">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlJuego/ValidarSala" message="tns:IControlJuego_ValidarSala_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlJuego/ValidarSalaResponse" message="tns:IControlJuego_ValidarSala_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarMensaje">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlJuego/EnviarMensaje" message="tns:IControlJuego_EnviarMensaje_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SalirChat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IControlJuego/SalirChat" message="tns:IControlJuego_SalirChat_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RecibirMensajeLobby">
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlJuego/RecibirMensajeLobby" message="tns:IControlJuego_RecibirMensajeLobby_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RecibirMensajeMiembroLobby">
+      <wsdl:output wsaw:Action="http://tempuri.org/IControlJuego/RecibirMensajeMiembroLobby" message="tns:IControlJuego_RecibirMensajeMiembroLobby_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_IControlCuenta" type="tns:IControlCuenta">
+    <wsp:PolicyReference URI="#NetTcpBinding_IControlCuenta_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="IniciarSesion">
+      <soap12:operation soapAction="http://tempuri.org/IControlCuenta/IniciarSesion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_IControlJuego" type="tns:IControlJuego">
+    <wsp:PolicyReference URI="#NetTcpBinding_IControlJuego_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="CrearSala">
+      <soap12:operation soapAction="http://tempuri.org/IControlJuego/CrearSala" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarSalasDisponibles">
+      <soap12:operation soapAction="http://tempuri.org/IControlJuego/ConsultarSalasDisponibles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarJugadoresSala">
+      <soap12:operation soapAction="http://tempuri.org/IControlJuego/ConsultarJugadoresSala" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UnirseSala">
+      <soap12:operation soapAction="http://tempuri.org/IControlJuego/UnirseSala" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarSala">
+      <soap12:operation soapAction="http://tempuri.org/IControlJuego/ValidarSala" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarMensaje">
+      <soap12:operation soapAction="http://tempuri.org/IControlJuego/EnviarMensaje" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="SalirChat">
+      <soap12:operation soapAction="http://tempuri.org/IControlJuego/SalirChat" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="RecibirMensajeLobby">
+      <soap12:operation soapAction="http://tempuri.org/IControlJuego/RecibirMensajeLobby" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecibirMensajeMiembroLobby">
+      <soap12:operation soapAction="http://tempuri.org/IControlJuego/RecibirMensajeMiembroLobby" style="document" />
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioSistema">
+    <wsdl:port name="NetTcpBinding_IControlCuenta" binding="tns:NetTcpBinding_IControlCuenta">
+      <soap12:address location="net.tcp://localhost:8090/EndpointCuenta" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:8090/EndpointCuenta</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>DESKTOP-4HPBN6B\Acous</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_IControlJuego" binding="tns:NetTcpBinding_IControlJuego">
+      <soap12:address location="net.tcp://localhost:8090/EndpointJuego" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:8090/EndpointJuego</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>DESKTOP-4HPBN6B\Acous</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

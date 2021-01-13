@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ErstickModelo" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ErstickModeloContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="JugadorSet" EntityType="ErstickModelo.Jugador" />
+    <EntitySet Name="PuntuacionSet" EntityType="ErstickModelo.Puntuacion" />
+    <EntitySet Name="CuentaSet" EntityType="ErstickModelo.Cuenta" />
+    <AssociationSet Name="JugadorCuenta" Association="ErstickModelo.JugadorCuenta">
+      <End Role="Jugador" EntitySet="JugadorSet" />
+      <End Role="Cuenta" EntitySet="CuentaSet" />
+    </AssociationSet>
+    <AssociationSet Name="JugadorPuntuacion" Association="ErstickModelo.JugadorPuntuacion">
+      <End Role="Jugador" EntitySet="JugadorSet" />
+      <End Role="Puntuacion" EntitySet="PuntuacionSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Jugador">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="apodo" Type="String" Nullable="false" />
+    <Property Name="nombre" Type="String" Nullable="false" />
+    <Property Name="apellidos" Type="String" Nullable="false" />
+    <NavigationProperty Name="Cuenta" Relationship="ErstickModelo.JugadorCuenta" FromRole="Jugador" ToRole="Cuenta" />
+    <NavigationProperty Name="Puntuacion" Relationship="ErstickModelo.JugadorPuntuacion" FromRole="Jugador" ToRole="Puntuacion" />
+  </EntityType>
+  <EntityType Name="Puntuacion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="turnos" Type="Int16" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Jugador" Relationship="ErstickModelo.JugadorPuntuacion" FromRole="Puntuacion" ToRole="Jugador" />
+  </EntityType>
+  <EntityType Name="Cuenta">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="correo" Type="String" Nullable="false" />
+    <Property Name="password" Type="String" Nullable="false" />
+    <Property Name="validada" Type="Boolean" Nullable="false" />
+    <Property Name="secionIniciada" Type="Boolean" Nullable="false" />
+    <Property Name="salt" Type="String" Nullable="false" />
+    <NavigationProperty Name="Jugador" Relationship="ErstickModelo.JugadorCuenta" FromRole="Cuenta" ToRole="Jugador" />
+  </EntityType>
+  <Association Name="JugadorCuenta">
+    <End Type="ErstickModelo.Jugador" Role="Jugador" Multiplicity="1" />
+    <End Type="ErstickModelo.Cuenta" Role="Cuenta" Multiplicity="1" />
+  </Association>
+  <Association Name="JugadorPuntuacion">
+    <End Type="ErstickModelo.Jugador" Role="Jugador" Multiplicity="1" />
+    <End Type="ErstickModelo.Puntuacion" Role="Puntuacion" Multiplicity="*" />
+  </Association>
+</Schema>
